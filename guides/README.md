@@ -40,5 +40,5 @@ This space is the task layer of the portal: what to do first, what to configure,
 
 ## Recommended pairing
 
-- Use [API reference](https://app.gitbook.com/s/XSPACE_API/README) for the durable technical contract.
-- Use [Access and support](https://app.gitbook.com/s/XSPACE_ACCESS/README) when the blocker is permissions, internal approval, or operational escalation.
+- Use [API reference](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/README) for the durable technical contract.
+- Use [Access and support](https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/README) when the blocker is permissions, internal approval, or operational escalation.

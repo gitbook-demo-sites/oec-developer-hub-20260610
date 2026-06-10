@@ -21,4 +21,4 @@ icon: puzzle-piece
 
 ## Best practice
 
-Write guides around partner goals and link down into [reference pages](https://app.gitbook.com/s/XSPACE_API/README) for contract detail. Do not force developers to learn the product model only from endpoint listings.
+Write guides around partner goals and link down into [reference pages](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/README) for contract detail. Do not force developers to learn the product model only from endpoint listings.

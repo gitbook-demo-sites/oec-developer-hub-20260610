@@ -21,19 +21,19 @@ External partners should be able to discover, test, and launch quickly. Internal
       <td><i class="fa-route" style="color:#0B6E69;"></i></td>
       <td><strong>Partner guides</strong></td>
       <td>Onboarding, environment setup, certification flow, and launch guidance.</td>
-      <td><a href="https://app.gitbook.com/s/XSPACE_GUIDES/README">README</a></td>
+      <td><a href="https://app.gitbook.com/s/FbNda6lbrLue6QWOtkr6/README">README</a></td>
     </tr>
     <tr>
       <td><i class="fa-code" style="color:#0B6E69;"></i></td>
       <td><strong>API reference</strong></td>
       <td>Authentication, core resources, event patterns, errors, and versioning approach.</td>
-      <td><a href="https://app.gitbook.com/s/XSPACE_API/README">README</a></td>
+      <td><a href="https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/README">README</a></td>
     </tr>
     <tr>
       <td><i class="fa-user-lock" style="color:#0B6E69;"></i></td>
       <td><strong>Access and support</strong></td>
       <td>Login model, role-based visibility, internal overlays, and support escalation.</td>
-      <td><a href="https://app.gitbook.com/s/XSPACE_ACCESS/README">README</a></td>
+      <td><a href="https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/README">README</a></td>
     </tr>
   </tbody>
 </table>
@@ -67,9 +67,9 @@ This draft is optimized for the use case described in the OEC discovery notes: o
 ## Suggested first path
 
 1. Read the [portal model](why-this-portal-model.md).
-2. Start the [partner onboarding flow](https://app.gitbook.com/s/XSPACE_GUIDES/getting-started/partner-onboarding).
-3. Review [authentication and environments](https://app.gitbook.com/s/XSPACE_API/authentication-and-environments).
-4. Confirm [login, roles, and restricted content behavior](https://app.gitbook.com/s/XSPACE_ACCESS/login-and-role-model).
+2. Start the [partner onboarding flow](https://app.gitbook.com/s/FbNda6lbrLue6QWOtkr6/getting-started/partner-onboarding).
+3. Review [authentication and environments](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/authentication-and-environments).
+4. Confirm [login, roles, and restricted content behavior](https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/login-and-role-model).
 
 ## What is intentionally demonstrated here
 

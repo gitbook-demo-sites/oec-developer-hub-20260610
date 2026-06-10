@@ -27,7 +27,7 @@ Provision sandbox credentials, callback domains, and any required tenant identif
 {% step %}
 ### Read the core technical pages
 
-Start with [authentication and environments](https://app.gitbook.com/s/XSPACE_API/authentication-and-environments) and [common integration patterns](../build-and-validate/common-integration-patterns.md).
+Start with [authentication and environments](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/authentication-and-environments) and [common integration patterns](../build-and-validate/common-integration-patterns.md).
 {% endstep %}
 
 {% step %}
