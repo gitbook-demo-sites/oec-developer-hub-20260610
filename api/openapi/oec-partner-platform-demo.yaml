@@ -1,0 +1,153 @@
+openapi: 3.0.3
+info:
+  title: OEC Partner Platform API
+  version: 0.1.0-demo
+  description: |
+    Dummy OpenAPI contract for the OEC demo portal.
+
+    This file exists to show how GitBook can combine authored onboarding pages with a
+    spec-backed endpoint reference. Replace it with the real OEC contract when available.
+servers:
+  - url: https://sandbox.api.oeconnection.example.com/v1
+    description: Sandbox
+  - url: https://api.oeconnection.example.com/v1
+    description: Production
+tags:
+  - name: Partners
+    description: Partner registration and profile management.
+  - name: Orders
+    description: Order submission and retrieval.
+  - name: Events
+    description: Webhook subscription management.
+paths:
+  /partners:
+    post:
+      tags: [Partners]
+      operationId: createPartner
+      summary: Create a partner profile
+      description: Register a partner integration for sandbox onboarding.
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePartnerRequest'
+      responses:
+        '201':
+          description: Partner created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partner'
+  /orders/{orderId}:
+    get:
+      tags: [Orders]
+      operationId: getOrder
+      summary: Retrieve an order
+      description: Fetch a normalized order record for downstream workflow systems.
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: orderId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Order found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+        '404':
+          description: Order not found
+  /webhooks/subscriptions:
+    post:
+      tags: [Events]
+      operationId: createWebhookSubscription
+      summary: Create a webhook subscription
+      description: Register an endpoint for order and inventory events.
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WebhookSubscriptionRequest'
+      responses:
+        '201':
+          description: Subscription created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WebhookSubscription'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    CreatePartnerRequest:
+      type: object
+      required:
+        - companyName
+        - contactEmail
+      properties:
+        companyName:
+          type: string
+        contactEmail:
+          type: string
+          format: email
+        environment:
+          type: string
+          enum: [sandbox, production]
+    Partner:
+      type: object
+      properties:
+        id:
+          type: string
+        companyName:
+          type: string
+        status:
+          type: string
+          enum: [pending, active]
+    Order:
+      type: object
+      properties:
+        id:
+          type: string
+        status:
+          type: string
+        updatedAt:
+          type: string
+          format: date-time
+    WebhookSubscriptionRequest:
+      type: object
+      required:
+        - targetUrl
+        - eventTypes
+      properties:
+        targetUrl:
+          type: string
+          format: uri
+        eventTypes:
+          type: array
+          items:
+            type: string
+    WebhookSubscription:
+      type: object
+      properties:
+        id:
+          type: string
+        targetUrl:
+          type: string
+          format: uri
+        eventTypes:
+          type: array
+          items:
+            type: string

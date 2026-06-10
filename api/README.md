@@ -11,6 +11,10 @@ This demo uses authored overview pages to show the shape of the technical surfac
 The goal is a portal that combines task-driven guides with a spec-backed reference, not a docs shell that forces developers to choose between narrative pages and raw endpoint dumps.
 {% endhint %}
 
+{% hint style="info" %}
+This draft currently uses a dummy OpenAPI file to demonstrate how a spec-backed reference would render in GitBook. Swap it for the real OEC contract when one is ready.
+{% endhint %}
+
 ## Start here
 
 - [Reference overview](reference-overview.md)
