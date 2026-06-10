@@ -1,11 +1,25 @@
 ---
 description: "Landing space for OEC's partner and developer portal."
 icon: house
+cover: https://oeconnection.com/wp-content/uploads/2025/12/Homepage-Hero-8-1024x573.jpg
+coverY: 0
+layout:
+  width: wide
+  cover:
+    visible: true
+    size: hero
 ---
 
 # OEC Developer Hub
 
-External partners should be able to discover, test, and launch quickly. Internal OEC teams should be able to layer in restricted rollout notes, support paths, and account-specific implementation context without fragmenting the docs surface.
+Everything is easier when the partner journey, API contract, and internal rollout context live in one connected portal. External developers should be able to discover, test, and launch quickly, while OEC teams can add authenticated guidance without fragmenting the docs surface.
+
+{% hint style="success" %}
+Search should be one of the first things a visitor notices. Use it to jump directly to products, workflows, and API topics without losing the surrounding portal context.
+{% endhint %}
+
+<a class="button primary" href="https://oeconnection.com/login/">Log in to OEC</a>
+<a class="button secondary" href="https://oeconnection.com/support/">Get support</a>
 
 <table data-view="cards">
   <thead>
@@ -21,19 +35,19 @@ External partners should be able to discover, test, and launch quickly. Internal
       <td><i class="fa-route" style="color:#0B6E69;"></i></td>
       <td><strong>Partner guides</strong></td>
       <td>Onboarding, environment setup, certification flow, and launch guidance.</td>
-      <td><a href="https://app.gitbook.com/s/FbNda6lbrLue6QWOtkr6/README">README</a></td>
+      <td><a href="https://app.gitbook.com/s/Zf16hXU4sTBoarXMu0IT/README">README</a></td>
     </tr>
     <tr>
       <td><i class="fa-code" style="color:#0B6E69;"></i></td>
       <td><strong>API reference</strong></td>
       <td>Authentication, core resources, event patterns, errors, and versioning approach.</td>
-      <td><a href="https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/README">README</a></td>
+      <td><a href="https://app.gitbook.com/s/ov7xDc9uLg04p7VFGo2m/README">README</a></td>
     </tr>
     <tr>
       <td><i class="fa-user-lock" style="color:#0B6E69;"></i></td>
       <td><strong>Access and support</strong></td>
       <td>Login model, role-based visibility, internal overlays, and support escalation.</td>
-      <td><a href="https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/README">README</a></td>
+      <td><a href="https://app.gitbook.com/s/3qp3KhmnSXFshs3kOezs/README">README</a></td>
     </tr>
   </tbody>
 </table>
@@ -67,9 +81,9 @@ This draft is optimized for the use case described in the OEC discovery notes: o
 ## Suggested first path
 
 1. Read the [portal model](why-this-portal-model.md).
-2. Start the [partner onboarding flow](https://app.gitbook.com/s/FbNda6lbrLue6QWOtkr6/getting-started/partner-onboarding).
-3. Review [authentication and environments](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/authentication-and-environments).
-4. Confirm [login, roles, and restricted content behavior](https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/login-and-role-model).
+2. Start the [partner onboarding flow](https://app.gitbook.com/s/Zf16hXU4sTBoarXMu0IT/getting-started/partner-onboarding).
+3. Review [authentication and environments](https://app.gitbook.com/s/ov7xDc9uLg04p7VFGo2m/authentication-and-environments).
+4. Confirm [login, roles, and restricted content behavior](https://app.gitbook.com/s/3qp3KhmnSXFshs3kOezs/login-and-role-model).
 
 ## What is intentionally demonstrated here
 

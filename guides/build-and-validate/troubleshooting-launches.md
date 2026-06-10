@@ -15,7 +15,7 @@ icon: life-ring
 
 ## Route by blocker type
 
-- access issue: see [login and role model](https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/login-and-role-model)
-- contract ambiguity: see [reference overview](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/reference-overview)
+- access issue: see [login and role model](https://app.gitbook.com/s/3qp3KhmnSXFshs3kOezs/login-and-role-model)
+- contract ambiguity: see [reference overview](https://app.gitbook.com/s/ov7xDc9uLg04p7VFGo2m/reference-overview)
 - event delivery issue: see [webhook testing](webhook-testing.md)
-- production release issue: see [support and escalation](https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/support-and-escalation)
+- production release issue: see [support and escalation](https://app.gitbook.com/s/3qp3KhmnSXFshs3kOezs/support-and-escalation)

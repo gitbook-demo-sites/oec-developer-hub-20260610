@@ -21,7 +21,7 @@ They create or receive portal access, get sandbox credentials, and verify auth p
 {% step %}
 ### Implement against guides and reference
 
-They move between [partner guides](https://app.gitbook.com/s/FbNda6lbrLue6QWOtkr6/README) and [API reference](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/README) instead of bouncing between PDFs, tickets, and legacy portals.
+They move between [partner guides](https://app.gitbook.com/s/Zf16hXU4sTBoarXMu0IT/README) and [API reference](https://app.gitbook.com/s/ov7xDc9uLg04p7VFGo2m/README) instead of bouncing between PDFs, tickets, and legacy portals.
 {% endstep %}
 
 {% step %}

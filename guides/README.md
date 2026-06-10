@@ -40,5 +40,5 @@ This space is the task layer of the portal: what to do first, what to configure,
 
 ## Recommended pairing
 
-- Use [API reference](https://app.gitbook.com/s/f1W2PfBZBd1K2O1uYgH8/README) for the durable technical contract.
-- Use [Access and support](https://app.gitbook.com/s/ka3sGU9YEvIddqpo87yc/README) when the blocker is permissions, internal approval, or operational escalation.
+- Use [API reference](https://app.gitbook.com/s/ov7xDc9uLg04p7VFGo2m/README) for the durable technical contract.
+- Use [Access and support](https://app.gitbook.com/s/3qp3KhmnSXFshs3kOezs/README) when the blocker is permissions, internal approval, or operational escalation.

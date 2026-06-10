@@ -19,4 +19,4 @@ Authenticated notes can include event ownership, known incident patterns, and es
 
 ## Pair with guides
 
-Link this page directly from [Webhook testing](https://app.gitbook.com/s/FbNda6lbrLue6QWOtkr6/build-and-validate/webhook-testing) so the narrative and the contract stay connected.
+Link this page directly from [Webhook testing](https://app.gitbook.com/s/Zf16hXU4sTBoarXMu0IT/build-and-validate/webhook-testing) so the narrative and the contract stay connected.
