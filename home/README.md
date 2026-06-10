@@ -12,14 +12,28 @@ layout:
 
 # OEC Developer Hub
 
+{% columns %}
+{% column width="55%" %}
 Everything is easier when the partner journey, API contract, and internal rollout context live in one connected portal. External developers should be able to discover, test, and launch quickly, while OEC teams can add authenticated guidance without fragmenting the docs surface.
-
-{% hint style="success" %}
-Search should be one of the first things a visitor notices. Use it to jump directly to products, workflows, and API topics without losing the surrounding portal context.
-{% endhint %}
 
 <a class="button primary" href="https://oeconnection.com/login/">Log in to OEC</a>
 <a class="button secondary" href="https://oeconnection.com/support/">Get support</a>
+
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Search the OEC docs</button>
+
+<button type="button" class="button secondary" data-action="ask" data-query="How do I start a new partner integration?" data-icon="plug">New integration</button> <button type="button" class="button secondary" data-action="ask" data-query="How do authentication and environments work?" data-icon="key">Authentication</button> <button type="button" class="button secondary" data-action="ask" data-query="Where do I find API reference and webhook events?" data-icon="code">API reference</button>
+{% endcolumn %}
+
+{% column width="45%" %}
+{% hint style="success" icon="circle-info" %}
+**Portal model**
+
+This homepage is intentionally a landing page first, not a docs index. The goal is to let partners search, choose a path, and get into the right workflow quickly, while preserving room for authenticated OEC-only overlays deeper in the portal.
+{% endhint %}
+{% endcolumn %}
+{% endcolumns %}
+
+***
 
 <table data-view="cards">
   <thead>
@@ -85,15 +99,41 @@ This draft is optimized for the use case described in the OEC discovery notes: o
 3. Review [authentication and environments](https://app.gitbook.com/s/ov7xDc9uLg04p7VFGo2m/authentication-and-environments).
 4. Confirm [login, roles, and restricted content behavior](https://app.gitbook.com/s/3qp3KhmnSXFshs3kOezs/login-and-role-model).
 
-## What is intentionally demonstrated here
+## Internal rollout notes
 
-- A strong top-level shell for an `OEC IO API` style portal
-- A visible login path in the site chrome
-- Public-to-private progression instead of separate disconnected tools
-- A docs model that can later swap overview pages for OpenAPI-backed endpoint reference
-
-## Quick links
-
-- [Why this portal model](why-this-portal-model.md)
-- [Developer journey](developer-journey.md)
-- [Launch plan](launch-plan.md)
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th width="48"></th>
+      <th></th>
+      <th></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><i class="fa-sitemap" style="color:#0B6E69;"></i></td>
+      <td><strong>Why this portal model</strong></td>
+      <td>Why OEC should unify partner and internal API documentation in one controlled surface.</td>
+      <td><a href="why-this-portal-model.md">why-this-portal-model.md</a></td>
+    </tr>
+    <tr>
+      <td><i class="fa-route" style="color:#0B6E69;"></i></td>
+      <td><strong>Developer journey</strong></td>
+      <td>The intended end-to-end flow for a partner developer using the OEC portal.</td>
+      <td><a href="developer-journey.md">developer-journey.md</a></td>
+    </tr>
+    <tr>
+      <td><i class="fa-people-arrows" style="color:#0B6E69;"></i></td>
+      <td><strong>Portal operating model</strong></td>
+      <td>How the portal should be owned and evolved inside OEC.</td>
+      <td><a href="portal-operating-model.md">portal-operating-model.md</a></td>
+    </tr>
+    <tr>
+      <td><i class="fa-rocket" style="color:#0B6E69;"></i></td>
+      <td><strong>Launch plan</strong></td>
+      <td>A pragmatic launch sequence for the first OEC API portal release.</td>
+      <td><a href="launch-plan.md">launch-plan.md</a></td>
+    </tr>
+  </tbody>
+</table>
